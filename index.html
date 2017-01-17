@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Lucky Draw by FIS-IT</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+    <meta name="description" content="This is a mini-game random a people received gifts">
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="modernizr.js" type="text/javascript"></script>
+    <script src="jquery.min.js" type="text/javascript"></script> 
+    
+    <script src="js/slot/jquery.backgroundPosition.js"></script>
+    <script src="js/slot/jquery.spritely.js"></script>
+    
+    <script src="js/lucky/var.js"></script>
+    <script src="js/lucky/lucky.js"></script>
+    <script src="js/slot/slot1.js"></script>
+</head>
+
+<body>
+    <img src="images/xdm.png" style="float: left;"/>
+    <img src="images/fpt.png" style="float: right;"/>
+    <div class="hd">
+    </div>
+    <div class="bd">
+        <h1 class="text-effect sizeh1"><a style="color:#807f80">LUCKY DRAW</a> FIS 2015</h1>
+
+        <div class="container">
+            <div class="slot-wrapper">
+                <div id="slot1" class="slot"></div>
+                <div id="slot2" class="slot"></div>
+                <div id="slot3" class="slot"></div>
+                <div id="slot4" class="slot"></div>
+                <div id="slot5" class="slot"></div>
+            </div>
+
+            <div class="slot-wrapper text-effect">
+                <div id="text1" class="slot-text"><br><br></div>
+                <div id="text2" class="slot-text"></div>
+                <div id="text3" class="slot-text"></div>
+                <div id="text4" class="slot-text"></div>
+                <div id="text5" class="slot-text"></div>
+            </div>
+
+            <div>
+                <button id="control" class="button-css">Start</button>
+                <audio id="spk" src="pull.mp3"></audio>
+                <button id="special" class="button-css">Special</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
